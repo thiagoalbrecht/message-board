@@ -1,4 +1,4 @@
-# PHP Message Board
+# PHP Message Board (THIS FILE IS NOT COMPLETE YET)
 A simple PHP message board project.
 ## Install instructions
 The following tutorial is for adding and configuring this in your University of Twente Portfolio Site. Some steps will be different when installing on another webserver.
