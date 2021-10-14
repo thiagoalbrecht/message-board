@@ -1,0 +1,60 @@
+/* 
+Part of this stylesheet was remixed from the following W3Schools' tutorial:
+https://www.w3schools.com/howto/howto_css_column_cards.asp
+*/
+
+/* Float four columns side by side */
+
+.card h3 {
+  font-size: 0.9em;
+}
+.column {
+  display: inline-block;
+  max-width: 300px;
+  margin-right: 5px;
+  margin-top: 10px;
+  vertical-align: top;
+}
+
+@media only screen and (max-width: 638px) {
+  .column {
+    max-width: none;
+    width: 100%;
+    
+  }
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: left;
+}
+.card p {
+  font-size: 1.1em;
+}
+.icon {
+  margin-bottom: -3px;
+  margin-right: 5px;
+  width: 18px;
+}
+.description {
+  margin-top: -10px;
+  font-size: 0.9em !important;
+}
+.card h3, .description {
+  color: #7a7a7a;
+}
+.form textarea {
+  resize: none;
+  font-family: sans-serif;
+}

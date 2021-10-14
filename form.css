@@ -1,0 +1,61 @@
+input[type=text], textarea, select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+  color: white;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.form {
+  border-radius: 5px;
+  background-color: #ededed;
+  padding: 20px;
+  max-width: 400px;
+  text-align: left;
+}
+/* From w3schools.com/howto/howto_js_alert.asp */
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+  margin-bottom: 10px;
+}
+.success {
+  padding: 20px;
+  background-color: #04AA6D;
+  color: white;
+  margin-bottom: 10px;
+}
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
