@@ -21,7 +21,7 @@ Launch phpMyAdmin (https://portfolio.cr.utwente.nl/db-admin/) and log in to your
 
 Go to the SQL tab (make sure your database is selected from the left sidebar):
 
-<img src="https://raw.githubusercontent.com/thiagoalbrecht/php-message-board/tutorial/images/phpmyadmin-sql.png?token=ADST7DSKHZOVVI4QQA644CTBOFZJ4">
+<img src="https://raw.githubusercontent.com/thiagoalbrecht/php-message-board/tutorial/images/phpmyadmin-sql.png">
 
 Paste the following query in the query box and press 'Go':
 
